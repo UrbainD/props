@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Profile fullname={fullname} bio={bio} profession={profession} handleName={handleName}>
-        <img style={{width:200,height:200,position:'absolute', top:22, left:20}} src={img_Video} alt='Mypic'/>
+        <img style={{width:200,height:200,position:'absolute', top:22, left:20}} src={img_Video} alt='image'/>
         </Profile>
     </div>
   );
